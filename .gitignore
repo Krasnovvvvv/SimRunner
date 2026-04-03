@@ -1,0 +1,141 @@
+# Prerequisites / deps
+*.d
+
+# C / C++ compiled objects
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Linker / debug files
+*.ilk
+*.pdb
+*.dwo
+*.dSYM/
+
+# Dynamic libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables / binaries
+*.exe
+*.out
+*.app
+
+# Fortran module files
+*.mod
+*.smod
+
+# Rust / Cargo
+target/
+debug/
+**/*.rs.bk
+
+# Keep Cargo.lock for applications/binaries.
+# Ignore it only if you later split reusable libraries into separate crates.
+# Cargo.lock
+
+# Temporary / logs
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.log
+logs/
+log/
+
+# Databases / local state
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.pid
+*.seed
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+*.secret
+*.key
+*.pem
+
+# System files
+.DS_Store
+Thumbs.db
+
+# JetBrains (CLion / RustRover)
+.idea/
+cmake-build-*/
+out/
+
+# CMake / native build system
+build/
+build-*/
+Build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+
+# Rust/C++ test & coverage artifacts
+coverage/
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+*.gcov
+lcov.info
+
+# Docker / containers
+.docker/
+docker-data/
+volumes/
+tmp/docker/
+*.tar
+
+# SimRunner runtime artifacts
+runs/
+artifacts/
+reports/
+exports/
+results/
+cache/
+tmp/
+data/
+
+# Generated plots / reports
+*.png
+*.svg
+*.pdf
+*.csv
+*.tsv
+*.html
+
+!docs/**/*.png
+!docs/**/*.svg
+!docs/**/*.html
+!examples/**/*.csv
+!examples/**/*.json
+
+# Editor / misc
+.vscode/
